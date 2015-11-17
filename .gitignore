@@ -1,12 +1,10 @@
 *.class
+# ignore all bin directories
+# matches "bin" in any subfolder
+bin/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# ignore all target directories
+target/
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# ignore all files ending with ~
+*~ 
